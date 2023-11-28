@@ -1,0 +1,32 @@
+.container{
+position: relative;
+ color: #fff;
+font-family: NeueHaasDisplayRoman, Helvetica, Arial, sans-serif; 
+margin-top: 70px;
+
+ 
+}
+.description{
+    position: absolute;
+    bottom: 35px;
+    left: 105px; 
+}
+.description h1{
+    font-size: 64px;
+}
+img{
+    width: 100%;
+ 
+
+}
+@media (max-width: 780px) {
+
+    .description h1{
+        font-size: 2rem;
+    }
+    .description h2{
+        font-size: 1.2rem;
+    }
+
+
+}

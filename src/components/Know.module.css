@@ -1,0 +1,35 @@
+.container {
+  text-align: center;
+  background-color: rgb(234, 234, 238);
+  padding: 50px 35px;
+}
+.container p {
+  color: black;
+  font-size: 17.8px;
+  line-height: 25.12px;
+  font-size: medium;
+  text-justify: distribute ;
+  padding: 10px 50px;
+}
+  
+.link {
+  background-color: rgb(20, 107, 173);
+  color: white !important;
+  border-radius: 30px;
+  font-size: medium;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 20px;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 0.8px;
+  padding: 13px 22px 13px 22px;
+}
+@media (max-width: 800px){
+  .container{
+    padding: 5px  0;
+
+  }
+
+}

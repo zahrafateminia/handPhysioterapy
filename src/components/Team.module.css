@@ -1,0 +1,49 @@
+.container {
+  background-color: #009ec6;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px 20px;
+}
+.ourteam {
+  display: flex;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+  text-align: justify;
+  text-justify: distribute;
+
+  /* background-color: aqua; */
+}
+.member img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+.member h2 {
+  margin-top: 10px;
+  overflow-wrap: anywhere;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+}
+.rehab {
+  margin-top: 15px;
+  display: flex;
+  /* background-color: aquamarine; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+} 
+@media(max-width:880px){
+   .rehab {
+    /* padding: 10px ; */
+    
+    justify-content: space-around;
+    /* justify-items: center; */
+   }
+}

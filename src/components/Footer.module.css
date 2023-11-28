@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgb(234, 234, 238);
+  padding: 40px 30px 20px;
+
+  color: rgb(20, 107, 173);
+  font-family: NeueHaasDisplayRoman, Helvetica, Arial, sans-serif;
+}
+
+.clumn1 > h4 {
+  color: rgb(20, 107, 173);
+}
+.clumn1 > ul {
+  list-style: none;
+  cursor: pointer;
+  padding: 0;
+  line-height: 20px;
+}
+.appointLink {
+  margin-top: 50px;
+}
+.appointLink > a {
+  background-color: rgb(20, 107, 173);
+  color: #ffff !important;
+  border-radius: 30px;
+  font-size: medium;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px;
+  text-decoration: none;
+}
+.img {
+  border-radius: 50%;
+  border: none;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.clumn2 > ul {
+  list-style: none;
+  cursor: pointer;
+  padding: 0;
+  line-height: 20px;
+}
+.clumn2 Link {
+  text-decoration: none;
+}
+
+.colum3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.socialIcon {
+  margin-top: 80px;
+}
+
+@media (max-width: 780px) {
+  .appointLink {
+    margin: 18px 0;
+  }
+  .socialIcon {
+    margin: 10px 0;
+  }
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 100%;
+  }
+}
